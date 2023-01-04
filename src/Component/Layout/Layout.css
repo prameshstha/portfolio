@@ -1,0 +1,7 @@
+.main__layout {
+  height: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* width: 100vw; */
+  margin-bottom: 10px;
+}

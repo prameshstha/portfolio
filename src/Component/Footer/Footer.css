@@ -1,0 +1,22 @@
+.footer__div {
+  position: fixed;
+  background-color: #29335c;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 5px;
+  margin-top: 50px;
+  clear: both;
+  height: 80px;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 10px;
+}
+.copyright {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
