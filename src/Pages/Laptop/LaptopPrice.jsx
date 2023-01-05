@@ -182,9 +182,10 @@ const LaptopPrice = () => {
               );
             })}
         </div>{" "}
-        <div>
-          selected value
-          <div>
+        <div className="value">
+          <span>Selected Value</span>
+
+          <div className="value__details">
             {laptopFeatures &&
               laptopFeatures.map((feat, index) => {
                 {

@@ -13,3 +13,19 @@
   display: flex;
   flex-direction: column;
 }
+@media only screen and (max-width: 678px) {
+  .main__layout {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .laptop__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .selected__features {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+  }
+}

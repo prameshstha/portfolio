@@ -13,7 +13,9 @@ const Navbar = () => {
       <header className="nav__header">
         <strong>Pramesh</strong>
         <nav ref={navRef}>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={showNavbar}>
+            Home
+          </Link>
           <Link to="/movie-rs" onClick={showNavbar}>
             Movie RS
           </Link>
