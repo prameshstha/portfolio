@@ -8,5 +8,10 @@ const baseLptPath = "api/lpt/";
 const baseMrPath = "api/mr/";
 
 // api links
+//movie
 export const movieListApi = baseUrl + baseMrPath + "movie/";
 export const recommendedMovieApi = baseUrl + baseMrPath + "recommended-movie/";
+
+//laptop
+export const laptopFeaturesApi = baseUrl + baseLptPath + "laptop-features/";
+export const predictPriceApi = baseUrl + baseLptPath + "predict-price/";

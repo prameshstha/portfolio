@@ -63,9 +63,9 @@ const MovieRS = () => {
       <div>Movie selection</div>{" "}
       <div className="">
         {isLoadingMovie ? (
-          <p class="placeholder-glow">
+          <p className="placeholder-glow">
             <span
-              class="placeholder rounded"
+              className="placeholder rounded"
               style={{ width: 300, height: 35 }}
             ></span>
           </p>

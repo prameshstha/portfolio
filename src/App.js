@@ -1,8 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Layout } from "./Component";
-import { HomePage, MovieRS } from "./Pages";
-import Workspace from "./Pages/Workspace/Workspace";
+import { HomePage, MovieRS, LaptopPP } from "./Pages";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/movie-rs" element={<MovieRS />} />
-          <Route path="/workspace" element={<Workspace />} />
+          <Route path="/laptop-price" element={<LaptopPP />} />
         </Routes>
       </Layout>
     </div>

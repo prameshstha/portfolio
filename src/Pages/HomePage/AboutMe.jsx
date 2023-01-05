@@ -6,7 +6,7 @@ const AboutMe = () => {
     <div>
       {" "}
       {/* about section start */}
-      <div classname="about">
+      <div className="about">
         <div id="about" className="paddsection">
           <div className="container">
             <div className="row justify-content-between">

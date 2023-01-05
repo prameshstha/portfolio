@@ -85,3 +85,9 @@ header nav {
     z-index: 999;
   }
 }
+@media only screen and (max-width: 678px) {
+  header nav {
+    transform: translateY(-150vh);
+    z-index: 999;
+  }
+}

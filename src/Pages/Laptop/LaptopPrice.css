@@ -1,0 +1,15 @@
+.laptop__main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.selected__features {
+  display: flex;
+  justify-content: space-between;
+}
+.feature__name {
+  margin-right: 20px;
+}
+.btn__predicted__price {
+  display: flex;
+  flex-direction: column;
+}

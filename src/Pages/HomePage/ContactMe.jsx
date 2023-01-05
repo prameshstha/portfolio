@@ -6,7 +6,7 @@ const ContactMe = () => {
       {/* start sectoion contact */}
       <div id="contact" className="w-50">
         <h2 className="mb-30">GET IN TOUCH</h2>
-        <form action method="post" role="form" className="contactForm">
+        <form method="post" role="form" className="contactForm">
           <div className="row">
             <div id="sendmessage" />
             <div id="errormessage" />
