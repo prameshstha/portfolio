@@ -14,10 +14,18 @@ const Navbar = () => {
         <strong>Pramesh</strong>
         <nav ref={navRef}>
           <Link to="/">Home</Link>
-          <Link to="/movie-rs">Movie RS</Link>
-          <Link to="/laptop-price">Laptop Price</Link>
-          <Link to="/#">Blogs</Link>
-          <Link to="/#">About me</Link>
+          <Link to="/movie-rs" onClick={showNavbar}>
+            Movie RS
+          </Link>
+          <Link to="/laptop-price" onClick={showNavbar}>
+            Laptop Price
+          </Link>
+          <Link to="/#" onClick={showNavbar}>
+            Blogs
+          </Link>
+          <Link to="/#" onClick={showNavbar}>
+            About me
+          </Link>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>
